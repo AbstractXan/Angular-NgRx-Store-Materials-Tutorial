@@ -1,0 +1,31 @@
+.home{
+    background-image: url(../../assets/images/back.jpg);
+    height: -webkit-fill-available;
+    display: flex;
+    flex-flow: column;
+    flex-grow: 1;
+    
+}
+
+.box{
+    margin: auto;
+    text-align: center;
+}
+.counter-label{
+    flex-flow: row;
+    margin: auto;
+    display: block;
+    min-width: 200px;
+    
+}
+
+#counter-button{
+    margin-left: auto;
+    margin-right:auto;
+    display: block;
+    flex-flow: row;
+}
+
+#counter-button button{
+    -ms-flex-item-align: center;
+}

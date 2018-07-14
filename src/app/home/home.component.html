@@ -1,0 +1,19 @@
+
+<div class="home">
+<!-- fxFlex aligns the button to the centre https://tburleson-layouts-demos.firebaseapp.com/#/docs
+      mat-button is the material button -->
+    <div class = "box">
+    <div class="counter-label" >
+      <mat-card >
+        
+          <div style="text-align: center;"> {{count$ | async}} times clicked </div>
+        
+      </mat-card>
+    </div>
+    <br>
+    <div id="counter-button"><button mat-flat-button (click)="increment()"> Counter </button></div>
+    <br>
+
+    <div style="color:steelblue; font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif">Source: stock.tookapic.com </div>
+  </div>
+</div>
